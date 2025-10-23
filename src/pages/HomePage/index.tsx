@@ -1,5 +1,5 @@
 import { JSX } from "react";
-import { Layout } from "../../components/Layout";
+import { Layout } from "../../components/Layout/index.js";
 
 export const HomePage = (): JSX.Element => {
   return (

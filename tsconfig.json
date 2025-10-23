@@ -1,9 +1,9 @@
 {
   "compilerOptions": {
-    "target": "ES2020",
-    "module": "es2020",
+    "target": "ES2023",
+    "module": "nodenext",
     "lib": [
-      "ES2020"
+      "ES2023"
     ],
     "outDir": "./dist",
     "rootDir": "./src",
@@ -15,7 +15,7 @@
     "declaration": true,
     "declarationMap": true,
     "sourceMap": true,
-    "moduleResolution": "node",
+    "moduleResolution": "nodenext",
     "jsx": "react-jsx",
     "typeRoots": [
       "./node_modules/@types"
