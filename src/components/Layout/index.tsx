@@ -18,9 +18,7 @@ export const Layout = ({ children, title = "IonCore" }: Props): JSX.Element => {
       </head>
 
       <body>
-        <div className="container">
-          {children}
-        </div>
+        {children}
       </body>
     </html>
   );
