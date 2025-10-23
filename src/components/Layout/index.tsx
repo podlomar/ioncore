@@ -1,3 +1,4 @@
+import { JSX } from "react";
 import './layout.css';
 
 interface Props {
@@ -5,7 +6,7 @@ interface Props {
   title?: string;
 }
 
-export const Layout = ({ children, title = "IonCore" }: Props) => {
+export const Layout = ({ children, title = "IonCore" }: Props): JSX.Element => {
   return (
     <html lang="en">
       <head>
